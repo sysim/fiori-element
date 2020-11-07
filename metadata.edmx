@@ -7,6 +7,20 @@
             xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
             xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
             xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+            <EntityType Name="Supplier">
+                <Key>
+                    <PropertyRef Name="Id"/>
+                </Key>
+                <Property Name="Id" Nullable="false" Type="Edm.Int32"/>
+                <Property MaxLength="40" Name="Name" Type="Edm.String"/>
+                <Property MaxLength="20" Name="Category" Type="Edm.String"/>
+                <Property MaxLength="50" Name="Address" Type="Edm.String"/>
+                <Property MaxLength="15" Name="City" Type="Edm.String"/>
+                <Property MaxLength="10" Name="PostalCode" Type="Edm.String"/>
+                <Property MaxLength="15" Name="Country" Type="Edm.String"/>
+                <Property MaxLength="24" Name="Phone" Type="Edm.String"/>
+                <Property MaxLength="Max" Name="Website" Type="Edm.String"/>
+            </EntityType>
 
         </Schema>
     </edmx:DataServices>
