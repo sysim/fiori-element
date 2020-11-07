@@ -20,6 +20,7 @@
                 <Property MaxLength="15" Name="Country" Type="Edm.String"/>
                 <Property MaxLength="24" Name="Phone" Type="Edm.String"/>
                 <Property MaxLength="Max" Name="Website" Type="Edm.String"/>
+                <NavigationProperty FromRole="Supplier" Name="Product" Relationship="SupplierModel.FK_Supplier_Product" ToRole="Product"/>
             </EntityType>
             <EntityContainer Name="SupplierEntities" m:IsDefaultEntityContainer="true"
                 xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
