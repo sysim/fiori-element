@@ -59,6 +59,18 @@
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
+            <Association Name="FK_Product_Order">
+                <End Multiplicity="0..1" Role="Product" Type="SupplierModel.Product"/>
+                <End Multiplicity="*" Role="Order" Type="SupplierModel.Order"/>
+                <ReferentialConstraint>
+                    <Principal Role="Product">
+                        <PropertyRef Name="Id"/>
+                    </Principal>
+                    <Dependent Role="Order">
+                        <PropertyRef Name="ProductID"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
             <EntityContainer Name="SupplierEntities" m:IsDefaultEntityContainer="true"
                 xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
                 <EntitySet EntityType="SupplierModel.Supplier" Name="Suppliers"/>
