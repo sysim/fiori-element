@@ -157,7 +157,22 @@
                         "entitySet": "SEPMRA_C_PD_Product",
                         "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
                         "component": {
-                            "name": "sap.suite.ui.generic.template.ObjectPage"
+                            "name": "sap.suite.ui.generic.template.ObjectPage",
+                            "settings": {
+                                "sections": {
+                                    "to_ProductSalesData::com.sap.vocabularies.UI.v1.Chart": {},
+                                    "to_ProductSalesData::com.sap.vocabularies.UI.v1.LineItem": {}
+                                }
+                            }
+                        },
+                        "pages": {
+                            "ObjectPage|SEPMRA_C_PD_ProductSalesData": {
+                                "component": {
+                                    "name": "sap.suite.ui.generic.template.ObjectPage"
+                                },
+                                "entitySet": "SEPMRA_C_PD_ProductSalesData",
+                                "navigationProperty": "to_ProductSalesData"
+                            }
                         }
                     }
                 }
