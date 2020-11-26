@@ -146,6 +146,9 @@
                             "dateSettings": {
                                 "useDateRange": true
                             }
+                        },
+                        "tableSettings": {
+                            "multiSelect": true
                         }
                     }
                 },
