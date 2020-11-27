@@ -21,6 +21,10 @@
         xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="Org.OData.Measures.V1" Alias="Measures"/>
     </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml"
+        xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
     <edmx:DataServices m:DataServiceVersion="2.0"
         xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
         <Schema Namespace="SupplierModel"
@@ -115,7 +119,7 @@
             </Association>
             <Association Name="FK_Supplier_ContactPerson">
                 <End Multiplicity="0..1" Role="Supplier" Type="SupplierModel.Supplier"/>
-                <End Multiplicity="*" Role="ContactPerson" Type="SupplierModel.ContactPerson"/>
+                <End Multiplicity="1" Role="ContactPerson" Type="SupplierModel.ContactPerson"/>
                 <ReferentialConstraint>
                     <Principal Role="Supplier">
                         <PropertyRef Name="ContactPersonId"/>
@@ -157,6 +161,10 @@
                         </Record>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="Category"/>
+                        </Record>
+                        <Record Type="UI.DataFieldForAnnotation">
+                            <PropertyValue Property="Label" String="Contact Person"/>
+                            <PropertyValue Property="Target" AnnotationPath="ToContactPersons/@Communication.Contact"/>
                         </Record>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="Country"/>
@@ -221,6 +229,31 @@
                             <PropertyValue Property="Label" String="Product List"/>
                         </Record>
                     </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="SupplierModel.ContactPerson"
+                xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="Communication.Contact">
+                    <Record Type="Communication.ContactType">
+                        <PropertyValue Property="fn" Path="Name"/>
+                        <PropertyValue Property="role" Path="Title"/>
+                        <PropertyValue Property="email">
+                            <Collection>
+                                <Record Type="Communication.EmailAddressType">
+                                    <PropertyValue Property="type" EnumMember="Communication.ContactInformationType/work"/>
+                                    <PropertyValue Property="address" Path="Email"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="tel">
+                            <Collection>
+                                <Record Type="Communication.PhoneNumberType">
+                                    <PropertyValue Property="type" EnumMember="Communication.PhoneType/cell"/>
+                                    <PropertyValue Property="uri" Path="Phone"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
                 </Annotation>
             </Annotations>
             <Annotations Target="SupplierModel.Product"
