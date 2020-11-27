@@ -18,6 +18,7 @@
         "Fax": null,
         "CountryId": "UK",
         "Website": "https://www.google.com/",
+        "LogoPath": "/images/logo/logo1.png",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(1)/Products"
@@ -43,6 +44,7 @@
         "Fax": null,
         "CountryId": "USA",
         "Website": "https://www.google.com/",
+        "LogoPath": "/images/logo/logo2.png",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(2)/Products"
@@ -68,6 +70,7 @@
         "Fax": "(313) 555-3349",
         "CountryId": "USA",
         "Website": "https://www.sap.com/",
+        "LogoPath": "/images/logo/logo3.png",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(3)/Products"
@@ -93,6 +96,7 @@
         "Fax": null,
         "CountryId": "JPN",
         "Website": "https://www.google.com/",
+        "LogoPath": "/images/logo/logo4.png",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(4)/Products"
@@ -118,6 +122,7 @@
         "Fax": null,
         "CountryId": "SPN",
         "Website": "https://www.google.com/",
+        "LogoPath": "/images/logo/logo5.png",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(5)/Products"
