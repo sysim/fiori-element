@@ -16,6 +16,7 @@
         "Country": "United Kingdom",
         "Phone": "(171) 555-2222",
         "Fax": null,
+        "CountryId": "UK",
         "Website": "https://www.google.com/",
         "Products": {
             "__deferred": {
@@ -40,6 +41,7 @@
         "Country": "United States",
         "Phone": "(100) 555-4822",
         "Fax": null,
+        "CountryId": "USA",
         "Website": "https://www.google.com/",
         "Products": {
             "__deferred": {
@@ -64,6 +66,7 @@
         "Country": "United States",
         "Phone": "(313) 555-5735",
         "Fax": "(313) 555-3349",
+        "CountryId": "USA",
         "Website": "https://www.sap.com/",
         "Products": {
             "__deferred": {
@@ -88,6 +91,7 @@
         "Country": "Japan",
         "Phone": "(03) 3555-5011",
         "Fax": null,
+        "CountryId": "JPN",
         "Website": "https://www.google.com/",
         "Products": {
             "__deferred": {
@@ -112,6 +116,7 @@
         "Country": "Spain",
         "Phone": "(98) 598 76 54",
         "Fax": null,
+        "CountryId": "SPN",
         "Website": "https://www.google.com/",
         "Products": {
             "__deferred": {

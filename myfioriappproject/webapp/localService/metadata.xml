@@ -32,6 +32,7 @@
                 <Property MaxLength="15" Name="Country" Type="Edm.String"/>
                 <Property MaxLength="24" Name="Phone" Type="Edm.String"/>
                 <Property MaxLength="Max" Name="Website" Type="Edm.String"/>
+                <Property MaxLength="5" Name="CountryId" Type="Edm.String"/>
                 <NavigationProperty FromRole="Supplier" Name="ToProducts" Relationship="SupplierModel.FK_Supplier_Product" ToRole="Product"/>
             </EntityType>
             <EntityType Name="Product">
