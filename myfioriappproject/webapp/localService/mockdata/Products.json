@@ -13,6 +13,7 @@
         "UnitsInStock": 39,
         "UnitsOnOrder": 0,
         "ReorderLevel": 10,
+        "CurrencyKey": "MYR",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -44,6 +45,7 @@
         "UnitsInStock": 17,
         "UnitsOnOrder": 40,
         "ReorderLevel": 25,
+        "CurrencyKey": "USD",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -75,6 +77,7 @@
         "UnitsInStock": 13,
         "UnitsOnOrder": 70,
         "ReorderLevel": 25,
+        "CurrencyKey": "MYR",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -106,6 +109,7 @@
         "UnitsInStock": 53,
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
+        "CurrencyKey": "USD",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -137,6 +141,7 @@
         "UnitsInStock": 76,
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
+        "CurrencyKey": "MYR",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -168,6 +173,7 @@
         "UnitsInStock": 6,
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
+        "CurrencyKey": "MYR",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -199,6 +205,7 @@
         "UnitsInStock": 22,
         "UnitsOnOrder": 30,
         "ReorderLevel": 30,
+        "CurrencyKey": "USD",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -230,6 +237,7 @@
         "UnitsInStock": 86,
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
+        "CurrencyKey": "MYR",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -261,6 +269,7 @@
         "UnitsInStock": 29,
         "UnitsOnOrder": 0,
         "ReorderLevel": 10,
+        "CurrencyKey": "USD",
         "Discontinued": false,
         "Category": {
             "__deferred": {
@@ -292,6 +301,7 @@
         "UnitsInStock": 0,
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
+        "CurrencyKey": "MYR",
         "Discontinued": true,
         "Category": {
             "__deferred": {
@@ -323,6 +333,7 @@
         "UnitsInStock": 42,
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
+        "CurrencyKey": "USD",
         "Discontinued": false,
         "Category": {
             "__deferred": {
