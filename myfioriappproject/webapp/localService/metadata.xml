@@ -44,7 +44,7 @@
                 <Property MaxLength="255" Name="LogoPath" Type="Edm.String"/>
                 <Property Name="ContactPersonId" Type="Edm.Int32"/>
                 <NavigationProperty FromRole="Supplier" Name="ToProducts" Relationship="SupplierModel.FK_Supplier_Product" ToRole="Product"/>
-                <NavigationProperty FromRole="Supplier" Name="ToContactPerson" Relationship="SupplierModel.FK_Supplier_ContactPerson" ToRole="ContactPerson"/>
+                <NavigationProperty FromRole="Supplier" Name="ToContactPersons" Relationship="SupplierModel.FK_Supplier_ContactPerson" ToRole="ContactPerson"/>
             </EntityType>
             <EntityType Name="Product">
                 <Key>
