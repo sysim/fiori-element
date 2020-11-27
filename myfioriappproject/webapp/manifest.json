@@ -96,12 +96,10 @@
                 "type": "sap.ui.model.resource.ResourceModel",
                 "uri": "i18n/ObjectPage/Suppliers/i18n.properties"
             },
-            
             "i18n|sap.suite.ui.generic.template.ObjectPage|Products": {
-              "type": "sap.ui.model.resource.ResourceModel",
-              "uri": "i18n/ObjectPage/Products/i18n.properties"
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/ObjectPage/Products/i18n.properties"
             },
-            
             "": {
                 "dataSource": "mainService",
                 "preload": true,
@@ -116,7 +114,22 @@
             }
         },
         "extends": {
-            "extensions": {}
+            "extensions": {
+                "sap.ui.viewExtensions": {
+                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+                        "SmartFilterBarControlConfigurationExtension|Suppliers": {
+                            "className": "sap.ui.core.Fragment",
+                            "fragmentName": "com.rizing.myfioriappproject.ext.fragment.CustomFilterExtension",
+                            "type": "XML"
+                        }
+                    }
+                },
+                "sap.ui.controllerExtensions": {
+                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+                        "controllerName": "com.rizing.myfioriappproject.ext.controller.ListReportExtension"
+                    }
+                }
+            }
         },
         "contentDensities": {
             "compact": true,
@@ -140,6 +153,7 @@
                         "condensedTableLayout": true,
                         "smartVariantManagement": true,
                         "enableTableFilterInPageVariant": true,
+                        "enableBasicSearch": false,
                         "filterSettings": {
                             "dateSettings": {
                                 "useDateRange": true
@@ -155,14 +169,14 @@
                             "name": "sap.suite.ui.generic.template.ObjectPage"
                         },
                         "pages": {
-                          "ObjectPage|ToProducts":{
-                            "navigationProperty": "ToProducts",
-                            "entitySet": "Products",
-                            "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
-                            "component": {
-                              "name": "sap.suite.ui.generic.template.ObjectPage"
+                            "ObjectPage|ToProducts": {
+                                "navigationProperty": "ToProducts",
+                                "entitySet": "Products",
+                                "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
+                                "component": {
+                                    "name": "sap.suite.ui.generic.template.ObjectPage"
+                                }
                             }
-                          }
                         }
                     }
                 }
