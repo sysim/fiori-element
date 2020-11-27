@@ -20,6 +20,7 @@
         "Website": "https://www.google.com/",
         "LogoPath": "/images/logo/logo1.png",
         "ContactPersonId": 101,
+        "TotalSales": "150000.00",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(1)/Products"
@@ -47,6 +48,7 @@
         "Website": "https://www.google.com/",
         "LogoPath": "/images/logo/logo2.jpg",
         "ContactPersonId": 102,
+        "TotalSales": "380000.00",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(2)/Products"
@@ -74,6 +76,7 @@
         "Website": "https://www.sap.com/",
         "LogoPath": "/images/logo/logo3.png",
         "ContactPersonId": 103,
+        "TotalSales": "540000.00",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(3)/Products"
@@ -101,6 +104,7 @@
         "Website": "https://www.google.com/",
         "LogoPath": "/images/logo/logo4.png",
         "ContactPersonId": 104,
+        "TotalSales": "750000.00",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(4)/Products"
@@ -128,6 +132,7 @@
         "Website": "https://www.google.com/",
         "LogoPath": "/images/logo/logo5.jpg",
         "ContactPersonId": 105,
+        "TotalSales": "980000.00",
         "Products": {
             "__deferred": {
                 "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(5)/Products"

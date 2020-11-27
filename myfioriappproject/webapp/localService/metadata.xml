@@ -46,6 +46,7 @@
                 <Property MaxLength="Max" Name="Website" Type="Edm.String"/>
                 <Property MaxLength="5" Name="CountryId" Type="Edm.String"/>
                 <Property MaxLength="255" Name="LogoPath" Type="Edm.String"/>
+                <Property Name="TotalSales" Type="Edm.Decimal" Precision="19" Scale="2"/>
                 <Property Name="ContactPersonId" Type="Edm.Int32"/>
                 <NavigationProperty FromRole="Supplier" Name="ToProducts" Relationship="SupplierModel.FK_Supplier_Product" ToRole="Product"/>
                 <NavigationProperty FromRole="Supplier" Name="ToContactPersons" Relationship="SupplierModel.FK_Supplier_ContactPerson" ToRole="ContactPerson"/>
