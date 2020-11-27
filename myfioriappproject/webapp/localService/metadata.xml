@@ -127,6 +127,29 @@
                         </Record>
                     </Collection>
                 </Annotation>
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>CountryId</PropertyPath>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="SupplierModel.Supplier/CountryId"
+                xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="Common.Label" String="Country" />
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="VH_Countries"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="CountryId"/>
+                                    <PropertyValue Property="ValueListProperty" String="Code"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="Common.ValueListWithFixedValues" Bool="true"/>
             </Annotations>
             <Annotations Target="SupplierModel.Supplier/Name"
                 xmlns="http://docs.oasis-open.org/odata/ns/edm">
@@ -155,22 +178,20 @@
                         <PropertyValue Property="Insertable" Bool="false"/>
                     </Record>
                 </Annotation>
-            </Annotations>
-            <Annotations Target="SupplierModel.SupplierEntities/Suppliers"
-                xmlns="http://docs.oasis-open.org/odata/ns/edm">
                 <Annotation Term="Capabilities.UpdateRestrictions">
                     <Record Type="Capabilities.UpdateRestrictionsType">
                         <PropertyValue Property="Updatable" Bool="false"/>
                     </Record>
                 </Annotation>
-            </Annotations>
-            <Annotations Target="SupplierModel.SupplierEntities/Suppliers"
-                xmlns="http://docs.oasis-open.org/odata/ns/edm">
                 <Annotation Term="Capabilities.DeleteRestrictions">
                     <Record Type="Capabilities.DeleteRestrictionsType">
                         <PropertyValue Property="Deletable" Bool="false"/>
                     </Record>
                 </Annotation>
+            </Annotations>
+            <Annotations Target="SupplierModel.VH_Country/Code"
+                xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="Common.Text" Path="Text"/>
             </Annotations>
         </Schema>
     </edmx:DataServices>
