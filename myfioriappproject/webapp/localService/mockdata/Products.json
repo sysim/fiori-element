@@ -1,0 +1,343 @@
+[
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(1)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 1,
+        "Name": "Chai",
+        "SupplierId": 1,
+        "CategoryID": 1,
+        "QuantityPerUnit": "10 boxes x 20 bags",
+        "UnitPrice": "18.0000",
+        "UnitsInStock": 39,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 10,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(1)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(1)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(1)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(2)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 2,
+        "Name": "Chang",
+        "SupplierId": 1,
+        "CategoryID": 1,
+        "QuantityPerUnit": "24 - 12 oz bottles",
+        "UnitPrice": "19.0000",
+        "UnitsInStock": 17,
+        "UnitsOnOrder": 40,
+        "ReorderLevel": 25,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(2)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(2)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(2)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(3)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 3,
+        "Name": "Aniseed Syrup",
+        "SupplierId": 1,
+        "CategoryID": 2,
+        "QuantityPerUnit": "12 - 550 ml bottles",
+        "UnitPrice": "10.0000",
+        "UnitsInStock": 13,
+        "UnitsOnOrder": 70,
+        "ReorderLevel": 25,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(3)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(3)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(3)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(4)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 4,
+        "Name": "Chef Anton's Cajun Seasoning",
+        "SupplierId": 2,
+        "CategoryID": 2,
+        "QuantityPerUnit": "48 - 6 oz jars",
+        "UnitPrice": "22.0000",
+        "UnitsInStock": 53,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(4)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(4)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(4)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(65)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 65,
+        "Name": "Louisiana Fiery Hot Pepper Sauce",
+        "SupplierId": 2,
+        "CategoryID": 2,
+        "QuantityPerUnit": "32 - 8 oz bottles",
+        "UnitPrice": "21.0500",
+        "UnitsInStock": 76,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(65)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(65)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(65)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(8)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 8,
+        "Name": "Northwoods Cranberry Sauce",
+        "SupplierId": 3,
+        "CategoryID": 2,
+        "QuantityPerUnit": "12 - 12 oz jars",
+        "UnitPrice": "40.0000",
+        "UnitsInStock": 6,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(8)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(8)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(8)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(11)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 11,
+        "Name": "Queso Cabrales",
+        "SupplierId": 2,
+        "CategoryID": 4,
+        "QuantityPerUnit": "1 kg pkg.",
+        "UnitPrice": "21.0000",
+        "UnitsInStock": 22,
+        "UnitsOnOrder": 30,
+        "ReorderLevel": 30,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(11)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(11)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(11)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(12)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 12,
+        "Name": "Queso Manchego La Pastora",
+        "SupplierId": 4,
+        "CategoryID": 4,
+        "QuantityPerUnit": "10 - 500 g pkgs.",
+        "UnitPrice": "38.0000",
+        "UnitsInStock": 86,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(12)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(12)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(12)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(16)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 16,
+        "Name": "Pavlova",
+        "SupplierId": 5,
+        "CategoryID": 3,
+        "QuantityPerUnit": "32 - 500 g boxes",
+        "UnitPrice": "17.4500",
+        "UnitsInStock": 29,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 10,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(16)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(16)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(16)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(17)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 17,
+        "Name": "Alice Mutton",
+        "SupplierId": 5,
+        "CategoryID": 6,
+        "QuantityPerUnit": "20 - 1 kg tins",
+        "UnitPrice": "39.0000",
+        "UnitsInStock": 0,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": true,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(17)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(17)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(17)/Supplier"
+            }
+        }
+    },
+    {
+        "__metadata": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(18)",
+            "type": "NorthwindModel.Product"
+        },
+        "Id": 18,
+        "Name": "Carnarvon Tigers",
+        "SupplierId": 5,
+        "CategoryID": 8,
+        "QuantityPerUnit": "16 kg pkg.",
+        "UnitPrice": "62.5000",
+        "UnitsInStock": 42,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(18)/Category"
+            }
+        },
+        "Order_Details": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(18)/Order_Details"
+            }
+        },
+        "Supplier": {
+            "__deferred": {
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products(18)/Supplier"
+            }
+        }
+    }
+]
